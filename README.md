@@ -92,7 +92,7 @@ L=15
     ```bash
     git clone git@github.com:wysockif/BattleZone.git
     ```
-2.  Build the JAR file in the pom.xml location:
+2.  Change your directory to `BattleZone/app` and build the JAR:
     ```bash
     mvn clean install
     ```
