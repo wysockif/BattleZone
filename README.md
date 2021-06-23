@@ -1,23 +1,23 @@
-
 <img src="https://raw.githubusercontent.com/wysockif/BattleZone/master/docs/scr/logo.png" alt="Noticeboard" style="height: auto !important;width: 150px !important;" >
 
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/wysockif/BattleZone)
+
 ---
 
-## Table of Contents
+### Table of Contents
 * [About](#about)
+* [Motivation & Project Status](#motivation-&-project-status)
 * [Technologies used](#technologies-used)
 * [Requirements](#requirements)
 * [Configuration](#configuration)
 * [Setup & usage](#setup-&-usage)
 * [Tests](#tests)
 * [Screenshots](#screenshots)
-* [Motivation & Project Status](#motivation-&-project-status)
+* [Licence](#licence)
 
 ---
 
 ### About
-
 
 BattleZone is a desktop multiplayer game in which two players are competing against each other, shooting the targets with the tanks. 
 
@@ -40,6 +40,16 @@ When is the game over?
 At the end of the game you can save the final stage to the png file.
 
 <img src="https://raw.githubusercontent.com/wysockif/BattleZone/master/docs/scr/game_loop.gif" alt="drawing" style="width:900px; margin: 10px;"/>
+
+---
+
+### Motivation & Project Status
+
+BattleZone was created during my first year of studying Computer Science in collaboration with Bartosz Zdybel. It was our first application in Java with graphical user interface. 
+
+The project was completed successfully. 
+
+Duration time: 14.04.2020 - 01.06.2020.
 
 ---
 
@@ -89,17 +99,23 @@ L=15
 ### Setup & usage
 
 1.  Clone this repository:
+
     ```bash
     git clone git@github.com:wysockif/BattleZone.git
     ```
-2.  Build the JAR file in the pom.xml location:
+
+2.  Change your directory to `BattleZone/app` and build the JAR file:
+
     ```bash
     mvn clean install
     ```
+
 3.  Run the application:
+
     ```bash
     java -jar target/BattleZone-1.0-SNAPSHOT.jar
     ```
+
 You can run it also by double-clicking.
 
 ---
@@ -131,11 +147,5 @@ You can run it also by double-clicking.
 
 ---
 
-### Motivation & Project Status
-
-BattleZone was created during my first year of studying Computer Science in collaboration with Bartosz Zdybel. It was our first application in Java with graphical user interface. 
-
-The project was completed successfully. 
-
-Duration time: 14.04.2020 - 01.06.2020.
-
+### License
+Usage is provided under the [MIT License](http://opensource.org/licenses/mit-license.php). See LICENSE for the full details.
