@@ -6,11 +6,11 @@
 
 ### Table of Contents
 * [About](#about)
-* [Motivation & Project Status](#motivation-&-project-status)
+* [Motivation and project status](#motivation-and-project-status)
 * [Technologies used](#technologies-used)
 * [Requirements](#requirements)
 * [Configuration](#configuration)
-* [Setup & usage](#setup-&-usage)
+* [Setup and usage](#setup-and-usage)
 * [Tests](#tests)
 * [Screenshots](#screenshots)
 * [Licence](#licence)
@@ -23,9 +23,9 @@ BattleZone is a desktop multiplayer game in which two players are competing agai
 
 All the targets have specified values, which players can score after shooting them. There can also randomly appear some extra points. 
 
-The targets reduce their size and their values are incremented by one every 'Y' seconds. Every 'X' seconds they bore children-targets with values 1.
+The targets reduce their size and their values are incremented by one every 'Y' seconds. Every 'X' seconds they bear children-targets with values 1.
 
-To shoot the target you need to decrement its value to zero (current value is displayed on the target) - then you get its historical greatest value (the current color of the target and the legend below the board can help remind you what was the max value). The bullets speed up every 'Z' seconds. You can define all these variables in the configuration file.
+To shoot the target you need to decrement its value to zero (current value is displayed on the target) - then you get its historical greatest value (the current color of the target and the legend below the board can help remind you what the max value was). The bullets speed up every 'Z' seconds. You can define all these variables in the configuration file.
 
 How to play?
 * left player: pressing W S A D keys to move and space to shoot;
@@ -43,7 +43,7 @@ At the end of the game you can save the final stage to the png file.
 
 ---
 
-### Motivation & Project Status
+### Motivation and project status
 
 BattleZone was created during my first year of studying Computer Science in collaboration with Bartosz Zdybel. It was our first application in Java with graphical user interface. 
 
@@ -64,7 +64,7 @@ Duration time: 14.04.2020 - 01.06.2020.
 
 ### Requirements
 
-To run the game you need to have installed JRE 13. 
+To run the game you need to have JRE 13 installed. 
 
 To build a JAR by yourself you need also Maven.
 
@@ -96,7 +96,7 @@ L=15
 * L - how many percent reduce the targets size.
 ---
 
-### Setup & usage
+### Setup and usage
 
 1.  Clone this repository:
 
@@ -116,7 +116,7 @@ L=15
     java -jar target/BattleZone-1.0-SNAPSHOT.jar
     ```
 
-You can run it also by double-clicking.
+You can also run it by double-clicking.
 
 ---
 
